@@ -55,6 +55,11 @@
       # Media.
       stremio
       vlc
+
+      # Utilities.
+      lazygit
+      cowsay
+      cbonsai # Bonsai tree (because why not)
     ];
   };
 
@@ -69,13 +74,29 @@
   environment.systemPackages = with pkgs; [
     # Text editors.
     neovim
+    vscode
 
     # Web browsers.
     firefox
     brave
 
+    # Native development.
+    gcc
+    gnumake
+
+    # Web development tools.
+    nodejs_22
+
+    # DevOps tools.
+    terraform
+
     # Utilities.
     git
+    yadm     # Yet Another Dotfiles Manager
+    gnupg    # GNU Privacy Guard
+    pinentry # GnuPG’s interface to passphrase input
+    zip      # Compression tool
+    unzip    # Decompression tool
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
