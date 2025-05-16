@@ -52,7 +52,9 @@
     description = "Angel Penchev";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-    #  thunderbird
+      # Media.
+      stremio
+      vlc
     ];
   };
 
