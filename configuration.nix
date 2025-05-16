@@ -92,6 +92,7 @@
 
     # Utilities.
     git
+    gh       # GitHub CLI
     yadm     # Yet Another Dotfiles Manager
     gnupg    # GNU Privacy Guard
     pinentry # GnuPG’s interface to passphrase input
